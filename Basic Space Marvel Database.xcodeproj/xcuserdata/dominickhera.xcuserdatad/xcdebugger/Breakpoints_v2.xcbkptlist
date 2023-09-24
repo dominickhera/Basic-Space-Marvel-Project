@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CBDCB0C6-30CE-4A48-9FD9-C552E9683F33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C05A596F-E554-48C9-938C-2228863DB8F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C05A596F-E554-48C9-938C-2228863DB8F8 - f93d2d68eb6ba53f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "C05A596F-E554-48C9-938C-2228863DB8F8 - f93d2d68eb6ba5b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7ED08D6-9C96-4B2D-9537-C88F7B17BAC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7ED08D6-9C96-4B2D-9537-C88F7B17BAC2 - f93d2d68eb6bab82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2188">
+               </Location>
+               <Location
+                  uuid = "F7ED08D6-9C96-4B2D-9537-C88F7B17BAC2 - f93d2d68eb6baba1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "F7ED08D6-9C96-4B2D-9537-C88F7B17BAC2 - f93d2d68eb6baba1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09F4DF0E-07D6-4864-8017-A30241328530"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "09F4DF0E-07D6-4864-8017-A30241328530 - f93d2d68eb6ba410"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "09F4DF0E-07D6-4864-8017-A30241328530 - f93d2d68eb6ba410"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "09F4DF0E-07D6-4864-8017-A30241328530 - f93d2d68eb6ba437"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "09F4DF0E-07D6-4864-8017-A30241328530 - f93d2d68eb6ba437"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6E1ADAE-2B65-4327-9758-2584D0AAA21B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6E1ADAE-2B65-4327-9758-2584D0AAA21B - fb23b6e8d7b0711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  uuid = "B6E1ADAE-2B65-4327-9758-2584D0AAA21B - fb23b6e8d7b0711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "547680CC-D009-4629-A792-7ED09DFB278C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "request(requestURL:queryItems:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B76166C3-E4F8-4763-865E-CFFFF3F88357"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62B9CFC2-74BC-4084-A855-1F0072125311"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62B9CFC2-74BC-4084-A855-1F0072125311 - f93d2d68eb6baa44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "2156">
+               </Location>
+               <Location
+                  uuid = "62B9CFC2-74BC-4084-A855-1F0072125311 - f93d2d68eb6baa44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "960C484D-6B19-40DC-94F6-F36FFD0EF727"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/MainListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "960C484D-6B19-40DC-94F6-F36FFD0EF727 - a67a0406aebe1dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.MainListViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/MainListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "960C484D-6B19-40DC-94F6-F36FFD0EF727 - a67a0406aebe1dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.MainListViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/MainListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A12E2EDB-DB47-4735-8553-E0BCBC1822AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/MainListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4797AEB-1B3E-4E25-9DAF-B7E7D821143F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/MainListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2891992D-222B-4F2B-AEA5-3562AE9D9C8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2891992D-222B-4F2B-AEA5-3562AE9D9C8F - f2b219752f8b7b6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ImageCaching.getImage(id: Swift.Int, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "2891992D-222B-4F2B-AEA5-3562AE9D9C8F - e2701503547089ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "2891992D-222B-4F2B-AEA5-3562AE9D9C8F - e27015035470898f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FD53840-583E-4FAD-BA5B-55ED2C340AB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FD53840-583E-4FAD-BA5B-55ED2C340AB7 - e270150354708949"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "4FD53840-583E-4FAD-BA5B-55ED2C340AB7 - e2701503547088b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DABC609-041D-4F23-A63E-6009129F9A5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DABC609-041D-4F23-A63E-6009129F9A5C - 5f3b49d039675476"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable () -&gt; () in Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "4DABC609-041D-4F23-A63E-6009129F9A5C - 5f3b49d039675476"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable () -&gt; () in Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D63CB5F5-38B8-4DCD-A4F9-19DF84EA25F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D63CB5F5-38B8-4DCD-A4F9-19DF84EA25F2 - 5f3b49d0396754d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable () -&gt; () in Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "D63CB5F5-38B8-4DCD-A4F9-19DF84EA25F2 - 5f3b49d0396754d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable () -&gt; () in Basic_Space_Marvel_Database.ImageCaching.getImage(hero: Basic_Space_Marvel_Database.Character, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ImageCaching.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB39F20E-64F8-42D6-93F3-6AD45B66520D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85DB5D60-C3FA-48DE-9988-F32FCC0DCF2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15F0A3BA-A117-4BEA-BAF9-D4B96E46EC63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ImageCaching.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getImage(path:imageExtension:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5C1E58C-A983-4718-917C-6A4F48D7910B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5C1E58C-A983-4718-917C-6A4F48D7910B - 46126839d275542c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "B5C1E58C-A983-4718-917C-6A4F48D7910B - 46126839d275540d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFD3F7E6-CFAD-4C84-88DF-A74D519310BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFD3F7E6-CFAD-4C84-88DF-A74D519310BE - 46126839d2755789"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "BFD3F7E6-CFAD-4C84-88DF-A74D519310BE - 46126839d27557ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51341EC1-851F-4175-988B-836E89E6008F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51341EC1-851F-4175-988B-836E89E6008F - 56aa22494867c77e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage() -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "51341EC1-851F-4175-988B-836E89E6008F - 56aa22494867c77e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage() -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "668">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88F18A58-6817-40FB-BA45-044F12363D10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "2"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - e641b1fbddfa8020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage() -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - e641b1fbddfa8020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage() -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e160026c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e160026c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e160026c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e1600374"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e1600374"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e160026c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "88F18A58-6817-40FB-BA45-044F12363D10 - 3e37d108e160026c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.ProfileDetailViewController.getNextContentPage(forContentType: Basic_Space_Marvel_Database.contentType) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 46126839d2755566"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 46126839d2755566"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 46126839d2755547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 46126839d2755547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D5C1C5C-613B-493E-84BE-8040A1F313F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3AC13F1-33A9-4D26-A44C-13F18279A80F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3AC13F1-33A9-4D26-A44C-13F18279A80F - 46126839d27554e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "B3AC13F1-33A9-4D26-A44C-13F18279A80F - 46126839d27554c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D3631A6-E416-4CDF-8418-98EB2EB5CBD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E88B1EE-5EE1-428B-8425-F705704D1AD9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E88B1EE-5EE1-428B-8425-F705704D1AD9 - 38459bbfbd38decb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ProfileDetailViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "239"
+                  endingLineNumber = "239"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "0E88B1EE-5EE1-428B-8425-F705704D1AD9 - 38459bbfbd38df0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ProfileDetailViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "0E88B1EE-5EE1-428B-8425-F705704D1AD9 - 38459bbfbd38da88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.ProfileDetailViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Basic%20Space%20Marvel%20Database/Basic%20Space%20Marvel%20Database/ProfileDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66302BCB-F2E5-4F89-9D7D-26A9983B1B22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3054D7D3-0C79-46E0-A32C-AAA215624A70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "ProfileDetailViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A20B990-683F-4705-96E7-26D51102399D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "1"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "995043FE-6978-4BDF-A7A9-33EF94D73B84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "1"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C220A5A7-FB89-47BE-B7AF-FAC040DE9A07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "1"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81708096-2254-437B-BD04-B332C1B7A6BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "1"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/ProfileDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getNextContentPage(forContentType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
