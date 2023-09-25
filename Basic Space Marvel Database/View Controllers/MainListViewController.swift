@@ -12,14 +12,19 @@ class MainListViewController: UIViewController
     
     @IBOutlet weak var listCollectionView: UICollectionView!
     
-    private let apiCallManager = APICallManager(networkManager: NetworkManager())
-    private let imageCaching = ImageCaching(networkManager: NetworkManager())
+    private var apiCallManager: APICallManager?// = APICallManager(networkManager: NetworkManager(session: URLSession()))
+    private var imageCaching: ImageCaching?// = ImageCaching(networkManager: NetworkManager(session: URLSessionProtocol()))
     private var selectedHero: Character?
     lazy var heroArray = [Character]()
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        let config = URLSessionConfiguration.default//URLSession(configuration: URLSessionConfiguration())
+        let urlSession = URLSession(configuration: config)
+        let networkManager = NetworkManager(session: urlSession)
+        apiCallManager = APICallManager(networkManager: networkManager)
+        imageCaching = ImageCaching(networkManager: networkManager)
         navigationItem.backBarButtonItem = UIBarButtonItem(
             title: "", style: .plain, target: nil, action: nil)
         let listNib = UINib(nibName: "CharacterListCollectionViewCell", bundle: nil)
@@ -32,7 +37,7 @@ class MainListViewController: UIViewController
     
     func getNextHeroPage()
     {
-        apiCallManager.getHeroList(pageCount: heroArray.count)
+        apiCallManager?.getHeroList(pageCount: heroArray.count)
         {
             heroList, error in
             
@@ -94,7 +99,7 @@ extension MainListViewController: UICollectionViewDataSource
         let hero = heroArray[indexPath.item]
         
         cell.heroNameLabel.text = hero.name
-        imageCaching.getImage(path: hero.thumbnail.path, imageExtension: hero.thumbnail.thumbnailExtension)
+        imageCaching?.getImage(path: hero.thumbnail.path, imageExtension: hero.thumbnail.thumbnailExtension)
         {
             [weak cell] image in
             

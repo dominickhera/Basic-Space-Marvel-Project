@@ -7,12 +7,28 @@
 
 import Foundation
 
-protocol NetworkProtocol
+protocol URLSessionProtocol
 {
-    func request(requestURL: String, queryItems: [URLQueryItem], callback: @escaping(_ serverResponse: HTTPURLResponse?, _ data: Data?, _ error: Error?) -> Void)
+    typealias DataTaskResult = (Data?, URLResponse?, Error?) -> Void
+    
+    func dataTask(with request: URLRequest, completionHandler: @escaping DataTaskResult) -> URLSessionDataTaskProtocol
 }
-class NetworkManager: NetworkProtocol
+
+protocol URLSessionDataTaskProtocol 
 {
+    func resume()
+}
+
+class NetworkManager
+{
+    
+    private let session: URLSessionProtocol
+            
+    init(session: URLSessionProtocol)
+    {
+        self.session = session
+    }
+    
     func request(requestURL: String, queryItems: [URLQueryItem] = [URLQueryItem](), callback: @escaping(_ serverResponse: HTTPURLResponse?, _ data: Data?, _ error: Error?) -> Void)
     {
         var requestURL = URLComponents(string: requestURL)
@@ -20,7 +36,7 @@ class NetworkManager: NetworkProtocol
         guard let requestURLString = requestURL?.string, let url = URL(string: requestURLString) else { callback(nil, nil, nil); return }
         let request = URLRequest(url: url)
         
-        let task = URLSession.shared.dataTask(with: request)
+        let task = session.dataTask(with: request)
         {
             data, response, error in
             
@@ -37,3 +53,13 @@ class NetworkManager: NetworkProtocol
         task.resume()
     }
 }
+
+extension URLSession: URLSessionProtocol 
+{
+    func dataTask(with request: URLRequest, completionHandler: @escaping URLSessionProtocol.DataTaskResult) -> URLSessionDataTaskProtocol 
+    {
+        return dataTask(with: request, completionHandler: completionHandler) as URLSessionDataTask
+    }
+}
+
+extension URLSessionDataTask: URLSessionDataTaskProtocol {}
