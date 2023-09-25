@@ -9,14 +9,17 @@ import Foundation
 
 class Content: NSObject, Decodable
 {
-    var resourceURI: String
     var name: String?
-    var type: String?
     var thumbnail: Thumbnail?
+    
+    init(name: String?, thumbnail: Thumbnail?)
+    {
+        self.name = name
+        self.thumbnail = thumbnail
+    }
     
     enum CodingKeys: String, CodingKey
     {
-        case resourceURI
         case name
         case type
         case thumbnail
@@ -25,9 +28,7 @@ class Content: NSObject, Decodable
     required init(from decoder: Decoder) throws
     {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        resourceURI = try values.decode(String.self, forKey: .resourceURI)
         name = try values.decodeIfPresent(String.self, forKey: .name)
-        type = try values.decodeIfPresent(String.self, forKey: .type)
         thumbnail = try values.decodeIfPresent(Thumbnail.self, forKey: .thumbnail)
     }
 }

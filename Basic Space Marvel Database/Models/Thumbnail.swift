@@ -12,6 +12,12 @@ class Thumbnail: NSObject, Decodable
     var path: String
     var thumbnailExtension: String
     
+    init(path: String, thumbnailExtension: String)
+    {
+        self.path = path
+        self.thumbnailExtension = thumbnailExtension
+    }
+    
     enum CodingKeys: String, CodingKey
     {
         case path

@@ -251,8 +251,8 @@
             filePath = "Basic Space Marvel Database/Manager/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "request(requestURL:queryItems:callback:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -957,7 +957,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
@@ -1027,6 +1027,36 @@
                   startingLineNumber = "103"
                   endingLineNumber = "103"
                   offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 8c43a7b5f115580a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "68674AFB-3EDA-421F-9F13-E8EA979726F0 - 9c4d2d6a3d1e1663"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_DatabaseTests.Character, contentType: Basic_Space_Marvel_DatabaseTests.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "172">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1280,8 +1310,8 @@
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1290,14 +1320,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D297EE71-0EDE-432D-91D3-3A9AAA2F0E1E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
             <Locations>
@@ -1331,6 +1361,36 @@
                   endingLineNumber = "47"
                   offsetFromSymbolStart = "1024">
                </Location>
+               <Location
+                  uuid = "D297EE71-0EDE-432D-91D3-3A9AAA2F0E1E - 10d4907a081a80e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "D297EE71-0EDE-432D-91D3-3A9AAA2F0E1E - 10d4907a081a8103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1036">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1344,8 +1404,8 @@
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
             <Locations>
@@ -1422,8 +1482,8 @@
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1432,14 +1492,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F3AABAD8-710B-4AEA-AF08-69071201F98C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
             <Locations>
@@ -1473,6 +1533,36 @@
                   endingLineNumber = "63"
                   offsetFromSymbolStart = "1916">
                </Location>
+               <Location
+                  uuid = "F3AABAD8-710B-4AEA-AF08-69071201F98C - 10d4907a081a817c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1664">
+               </Location>
+               <Location
+                  uuid = "F3AABAD8-710B-4AEA-AF08-69071201F98C - 10d4907a081a8397"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1664">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1486,8 +1576,8 @@
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
             <Locations>
@@ -1521,6 +1611,36 @@
                   endingLineNumber = "75"
                   offsetFromSymbolStart = "2540">
                </Location>
+               <Location
+                  uuid = "3E4B8375-A10D-446A-AABB-8FAD278AFB18 - 10d4907a081a83d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2288">
+               </Location>
+               <Location
+                  uuid = "3E4B8375-A10D-446A-AABB-8FAD278AFB18 - 10d4907a081a8408"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "2288">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1534,8 +1654,8 @@
             filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "testGetHeroList_Success()"
             landmarkType = "7">
             <Locations>
@@ -1568,6 +1688,445 @@
                   startingLineNumber = "98"
                   endingLineNumber = "98"
                   offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "15BC81F1-F343-4C61-AFC3-0213F0438D0D - 2a7721b454ce30b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "15BC81F1-F343-4C61-AFC3-0213F0438D0D - 2a7721b454ce30b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "15BC81F1-F343-4C61-AFC3-0213F0438D0D - 2a7721b454ce31db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Success() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A5D6D42-BEB6-4BA0-9617-F7368630D4D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "testGetHeroList_Fail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A5D6D42-BEB6-4BA0-9617-F7368630D4D4 - b357832e21091026"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Fail() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "1A5D6D42-BEB6-4BA0-9617-F7368630D4D4 - b357832e21091007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Fail() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "1A5D6D42-BEB6-4BA0-9617-F7368630D4D4 - b357832e210912f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Fail() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "1A5D6D42-BEB6-4BA0-9617-F7368630D4D4 - b357832e210912b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.Basic_Space_Marvel_DatabaseTests.testGetHeroList_Fail() throws -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C040D4D7-6DD4-47B4-A5E5-00B1F461BC81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel DatabaseTests/MockNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(requestURL:queryItems:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C040D4D7-6DD4-47B4-A5E5-00B1F461BC81 - f23337e2967e2078"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.MockNetworkManager.request(requestURL: Swift.String, queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, callback: (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "C040D4D7-6DD4-47B4-A5E5-00B1F461BC81 - f23337e2967e2078"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.MockNetworkManager.request(requestURL: Swift.String, queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, callback: (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9460AFC6-6C14-44FA-9154-8DC6D042D6F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel DatabaseTests/Basic_Space_Marvel_DatabaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "testGetComicContent_Success()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE64DD3D-8353-477E-A40D-E747CD101571"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel DatabaseTests/MockAPICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getHeroList(pageCount:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - a1735b988e37780c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - ed361c9ff93a3bb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - a1735b988e37782d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - a1735b988e37782d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - ed361c9ff93a3b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "EE64DD3D-8353-477E-A40D-E747CD101571 - ed361c9ff93a3b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.MockAPICallManager.getHeroList(pageCount: Swift.Int, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Character&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7BB0785-BC74-4151-B160-90D16833F039"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "request(requestURL:queryItems:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7BB0785-BC74-4151-B160-90D16833F039 - ea304b522a0bf33c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.NetworkManager.request(requestURL: Swift.String, queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, callback: (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "B7BB0785-BC74-4151-B160-90D16833F039 - f7040783d75aee40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.NetworkManager.request(requestURL: Swift.String, queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, callback: (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "684">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80925ED2-F567-4E71-B5C4-EBDA4B7669D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel Database/Manager/APICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80925ED2-F567-4E71-B5C4-EBDA4B7669D4 - d3f2f0386e8e290a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_Database.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2356">
+               </Location>
+               <Location
+                  uuid = "80925ED2-F567-4E71-B5C4-EBDA4B7669D4 - 5872b7ed0c9c3f51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Basic_Space_Marvel_DatabaseTests.APICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_DatabaseTests.Character, contentType: Basic_Space_Marvel_DatabaseTests.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20Database/Manager/APICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FD63BF8-40DA-4CCF-BFCB-803AB3256298"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Basic Space Marvel DatabaseTests/MockAPICallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getContentList(pageCount:hero:contentType:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9FD63BF8-40DA-4CCF-BFCB-803AB3256298 - f9009e459c48c5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_Database.MockAPICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_Database.Character, contentType: Basic_Space_Marvel_Database.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_Database.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "9FD63BF8-40DA-4CCF-BFCB-803AB3256298 - d9a26271759582df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Basic_Space_Marvel_DatabaseTests.MockAPICallManager.getContentList(pageCount: Swift.Int, hero: Basic_Space_Marvel_DatabaseTests.Character, contentType: Basic_Space_Marvel_DatabaseTests.contentType, callback: (Swift.Optional&lt;Swift.Array&lt;Basic_Space_Marvel_DatabaseTests.Content&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Basic Space Marvel DatabaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominickhera/Movies/Github/Basic-Space-Marvel-Project/Basic%20Space%20Marvel%20DatabaseTests/MockAPICallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "172">
                </Location>
             </Locations>
          </BreakpointContent>

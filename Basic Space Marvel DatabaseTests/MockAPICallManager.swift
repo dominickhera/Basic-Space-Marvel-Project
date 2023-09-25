@@ -14,34 +14,67 @@ class MockAPICallManager: APIProtocol
         Bundle(for: type(of: self))
     }
     
-    var networkManager: NetworkManager?
+    var networkManager: NetworkProtocol?
     
-    init(networkManager: NetworkManager?)
+    init(networkManager: NetworkProtocol?)
     {
         self.networkManager = networkManager
     }
     
     func getHeroList(pageCount: Int, callback: @escaping ([Character]?, Error?) -> Void)
     {
-        if let path = bundle.url(forResource: "HeroList", withExtension: "json")
+        
+        let requestURL = "https://gateway.marvel.com/v1/public/characters"
+        
+        networkManager?.request(requestURL: requestURL, queryItems: [URLQueryItem]())
         {
+            serverResponse, data, error in
+            
+            guard let serverResponse = serverResponse, serverResponse.statusCode == 200 else { callback(nil, error);return }
+            guard let data = data else {callback(nil, error); return}
             do
             {
-                let data = try Data(contentsOf: path)
+                
                 let decoder = JSONDecoder()
                 let response = try decoder.decode(RawResponseModel.self, from: data)
-                
-                callback(response.nestedData.results, nil)
+                callback(response.nestedData.results, error)
             }
             catch
             {
+                print(error)
                 callback(nil, error)
             }
         }
     }
     
     func getContentList(pageCount: Int, hero: Character, contentType: contentType, callback: @escaping ([Content]?, Error?) -> Void) {
-        callback(nil, nil)
+        
+        let requestURL = "https://gateway.marvel.com/v1/public/characters/\(hero.id)/\(contentType)"
+
+        let queryItems: [URLQueryItem] = [
+            URLQueryItem(name: "offset", value: "\(pageCount)"),
+            URLQueryItem(name: "apikey", value: "publicAPIKey"),
+            URLQueryItem(name: "ts", value: "1"),
+            URLQueryItem(name: "hash", value: "1"),
+            URLQueryItem(name: "limit", value: "2")
+        ]
+        networkManager?.request(requestURL: requestURL, queryItems: queryItems)
+        {
+            serverResponse, data, error in
+            
+            guard let data = data else {callback(nil, error); return}
+            do
+            {
+                let decoder = JSONDecoder()
+                let response = try decoder.decode(RawDetailResponseModel.self, from: data)
+                callback(response.nestedData.results, error)
+            }
+            catch
+            {
+                print(error)
+                callback(nil, error)
+            }
+        }
     }
     
     

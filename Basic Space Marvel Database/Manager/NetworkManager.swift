@@ -19,7 +19,12 @@ protocol URLSessionDataTaskProtocol
     func resume()
 }
 
-class NetworkManager
+protocol NetworkProtocol
+{
+    func request(requestURL: String, queryItems: [URLQueryItem], callback: @escaping(_ serverResponse: HTTPURLResponse?, _ data: Data?, _ error: Error?) -> Void)
+}
+
+class NetworkManager: NetworkProtocol
 {
     
     private let session: URLSessionProtocol

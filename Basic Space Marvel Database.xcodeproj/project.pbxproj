@@ -140,6 +140,7 @@
 			children = (
 				2594FAD22AC11A9B00F08E0F /* ComicContent.json */,
 				2594FAD12AC11A9B00F08E0F /* EventsContent.json */,
+				2594FAD32AC11A9B00F08E0F /* HeroList.json */,
 			);
 			path = "JSON Files";
 			sourceTree = "<group>";
@@ -188,7 +189,6 @@
 			children = (
 				2594FAD02AC11A8600F08E0F /* JSON Files */,
 				25B68FC72AAA595D00C04BEB /* Basic_Space_Marvel_DatabaseTests.swift */,
-				2594FAD32AC11A9B00F08E0F /* HeroList.json */,
 				2594FAD72AC11DE700F08E0F /* MockURLProtocol.swift */,
 				25ED138D2AC0FD1C003C20F0 /* MockAPICallManager.swift */,
 			);
