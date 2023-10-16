@@ -12,15 +12,15 @@ class MainListViewController: UIViewController
     
     @IBOutlet weak var listCollectionView: UICollectionView!
     
-    private var apiCallManager: APICallManager?// = APICallManager(networkManager: NetworkManager(session: URLSession()))
-    private var imageCaching: ImageCaching?// = ImageCaching(networkManager: NetworkManager(session: URLSessionProtocol()))
+    private var apiCallManager: APICallManager?
+    private var imageCaching: ImageCaching?
     private var selectedHero: Character?
     lazy var heroArray = [Character]()
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        let config = URLSessionConfiguration.default//URLSession(configuration: URLSessionConfiguration())
+        let config = URLSessionConfiguration.default
         let urlSession = URLSession(configuration: config)
         let networkManager = NetworkManager(session: urlSession)
         apiCallManager = APICallManager(networkManager: networkManager)

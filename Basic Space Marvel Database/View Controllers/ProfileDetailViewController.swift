@@ -163,8 +163,44 @@ class ProfileDetailViewController: UIViewController
         
         comicToggleView.backgroundColor = isComicSelected ? selectedColor : .white
         movieToggleView.backgroundColor = isComicSelected ? .white : selectedColor
-        
+    }
+    
+    //MARK: Actions
+    
+    @IBAction func didTapMore(_ sender: Any) 
+    {
+        let alert = UIAlertController(title: "More", message: "For more information regarding \(characterModel?.name ?? "the character.")", preferredStyle: .actionSheet)
+        guard let urls = characterModel?.urls else { return }
+    
+        for url in urls
+        {
+            if let title = urlType(rawValue: url.type)?.title
+            {
+                alert.addAction(UIAlertAction(title: title, style: .default , handler:{ (UIAlertAction)in
+                    guard let url = URL(string: url.url) else { return }
 
+                    if #available(iOS 10.0, *) 
+                    {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    } 
+                    else
+                    {
+                        UIApplication.shared.openURL(url)
+                    }
+                }))
+            }
+        }
+              
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:{ (UIAlertAction)in
+            print("User click Dismiss button")
+        }))
+
+        
+        alert.popoverPresentationController?.sourceView = self.view
+
+        self.present(alert, animated: true, completion: {
+            print("complete")
+        })
     }
     
     @IBAction func didTapComicButton(_ sender: Any)

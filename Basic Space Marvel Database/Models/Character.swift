@@ -15,8 +15,11 @@ class Character: NSObject, Decodable
     var thumbnail: Thumbnail
     var comics: ContentCollection
     var events: ContentCollection
+    var series: ContentCollection
+    var stories: ContentCollection
+    var urls: [UrlModel]
     
-    init(id: Int, name: String, characterDescription: String, thumbnail: Thumbnail, comics: ContentCollection, events: ContentCollection)
+    init(id: Int, name: String, characterDescription: String, thumbnail: Thumbnail, comics: ContentCollection, events: ContentCollection, series: ContentCollection, stories: ContentCollection, urls: [UrlModel])
     {
         self.id = id
         self.name = name
@@ -24,6 +27,9 @@ class Character: NSObject, Decodable
         self.thumbnail = thumbnail
         self.comics = comics
         self.events = events
+        self.series = series
+        self.stories = stories
+        self.urls = urls
     }
     
     enum CodingKeys: String, CodingKey
@@ -34,7 +40,9 @@ class Character: NSObject, Decodable
         case thumbnail
         case comics
         case events
-
+        case series
+        case stories
+        case urls
     }
     
     required init(from decoder: Decoder) throws
@@ -46,5 +54,8 @@ class Character: NSObject, Decodable
         thumbnail = try values.decode(Thumbnail.self, forKey: .thumbnail)
         comics = try values.decode(ContentCollection.self, forKey: .comics)
         events = try values.decode(ContentCollection.self, forKey: .events)
+        series = try values.decode(ContentCollection.self, forKey: .series)
+        stories = try values.decode(ContentCollection.self, forKey: .stories)
+        urls = try values.decode([UrlModel].self, forKey: .urls)
     }
 }

@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main List View Controller-->
+        <!--Database-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainListViewController" customModule="Basic_Space_Marvel_Database" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8DQ-8F-bk1">
-                                <rect key="frame" x="0.0" y="63" width="393" height="789"/>
+                                <rect key="frame" x="0.0" y="159" width="393" height="693"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="5zC-IP-eLr">
                                     <size key="itemSize" width="131" height="131"/>
@@ -32,17 +32,29 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Yta-4q-Nfw"/>
                                 </connections>
                             </collectionView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-Kn-Ilf">
+                                <rect key="frame" x="0.0" y="103" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GCf-h0-ren"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="8DQ-8F-bk1" secondAttribute="top" constant="40" id="0GT-gG-0zp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UIZ-Kn-Ilf" secondAttribute="trailing" id="3XM-hI-bZE"/>
+                            <constraint firstItem="8DQ-8F-bk1" firstAttribute="top" secondItem="UIZ-Kn-Ilf" secondAttribute="bottom" id="G34-Ro-l8U"/>
+                            <constraint firstItem="UIZ-Kn-Ilf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ibr-N5-15X"/>
                             <constraint firstItem="8DQ-8F-bk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SCd-gM-3dA"/>
                             <constraint firstItem="8DQ-8F-bk1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Xd1-2a-9z8"/>
                             <constraint firstItem="8DQ-8F-bk1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="hj3-Mu-Hca"/>
+                            <constraint firstItem="UIZ-Kn-Ilf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rmI-Dh-dOa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="sLi-ye-OW8"/>
+                    <navigationItem key="navigationItem" title="Database" id="sLi-ye-OW8">
+                        <barButtonItem key="rightBarButtonItem" image="line.3.horizontal.decrease.circle" catalog="system" id="uFf-nY-GCQ"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="listCollectionView" destination="8DQ-8F-bk1" id="i1x-OG-jgZ"/>
                         <segue destination="eRQ-bF-DET" kind="show" identifier="didSelectCell" id="Rsc-IM-i4E"/>
@@ -217,6 +229,9 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="jTL-3o-Ird">
                             <imageReference key="image" image="ellipsis" catalog="system" symbolScale="default"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="didTapMore:" destination="eRQ-bF-DET" id="ab7-3R-c0B"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -253,13 +268,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UmZ-K6-zni" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1277" y="4"/>
         </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="line.3.horizontal.decrease.circle" catalog="system" width="128" height="123"/>
         <image name="tv" catalog="system" width="128" height="95"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
