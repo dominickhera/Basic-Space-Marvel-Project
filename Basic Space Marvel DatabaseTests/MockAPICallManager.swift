@@ -21,7 +21,7 @@ class MockAPICallManager: APIProtocol
         self.networkManager = networkManager
     }
     
-    func getHeroList(pageCount: Int, callback: @escaping ([Character]?, Error?) -> Void)
+    func getHeroList(pageCount: Int, queryItems: [URLQueryItem] = [URLQueryItem](), callback: @escaping ([Character]?, Error?) -> Void)
     {
         
         let requestURL = "https://gateway.marvel.com/v1/public/characters"

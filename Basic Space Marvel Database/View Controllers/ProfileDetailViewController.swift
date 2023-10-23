@@ -165,6 +165,20 @@ class ProfileDetailViewController: UIViewController
         movieToggleView.backgroundColor = isComicSelected ? .white : selectedColor
     }
     
+    func toggleAction()
+    {
+        isComicSelected = !isComicSelected
+        movieToggleImageView.image = isComicSelected ? UIImage(systemName: "tv") : UIImage(systemName: "tv.fill")
+        comicToggleImageView.image = isComicSelected ? UIImage(systemName: "book.fill") : UIImage(systemName: "book")
+        movieToggleImageView.tintColor = isComicSelected ? .gray : .black
+        comicToggleImageView.tintColor = isComicSelected ? .black : .gray
+        comicToggleCountLabel.textColor = isComicSelected ? .black : .gray
+        movieToggleCountLabel.textColor = isComicSelected ? .gray : .black
+        comicToggleView.backgroundColor = isComicSelected ? selectedColor : .white
+        movieToggleView.backgroundColor = isComicSelected ? .white : selectedColor
+        self.profileCollectionView.reloadData()
+    }
+    
     //MARK: Actions
     
     @IBAction func didTapMore(_ sender: Any) 
@@ -207,16 +221,7 @@ class ProfileDetailViewController: UIViewController
     {
         if !isComicSelected
         {
-            isComicSelected = true
-            movieToggleImageView.image = isComicSelected ? UIImage(systemName: "tv") : UIImage(systemName: "tv.fill")
-            comicToggleImageView.image = isComicSelected ? UIImage(systemName: "book.fill") : UIImage(systemName: "book")
-            movieToggleImageView.tintColor = isComicSelected ? .gray : .black
-            comicToggleImageView.tintColor = isComicSelected ? .black : .gray
-            comicToggleCountLabel.textColor = isComicSelected ? .black : .gray
-            movieToggleCountLabel.textColor = isComicSelected ? .gray : .black
-            comicToggleView.backgroundColor = isComicSelected ? selectedColor : .white
-            movieToggleView.backgroundColor = isComicSelected ? .white : selectedColor
-            self.profileCollectionView.reloadData()
+            toggleAction()
         }
     }
     
@@ -224,16 +229,7 @@ class ProfileDetailViewController: UIViewController
     {
         if isComicSelected
         {
-            isComicSelected = false
-            movieToggleImageView.image = isComicSelected ? UIImage(systemName: "tv") : UIImage(systemName: "tv.fill")
-            comicToggleImageView.image = isComicSelected ? UIImage(systemName: "book.fill") : UIImage(systemName: "book")
-            movieToggleImageView.tintColor = isComicSelected ? .gray : .black
-            comicToggleImageView.tintColor = isComicSelected ? .black : .gray
-            comicToggleCountLabel.textColor = isComicSelected ? .black : .gray
-            movieToggleCountLabel.textColor = isComicSelected ? .gray : .black
-            comicToggleView.backgroundColor = isComicSelected ? selectedColor : .white
-            movieToggleView.backgroundColor = isComicSelected ? .white : selectedColor
-            self.profileCollectionView.reloadData()
+            toggleAction()
         }
     }
 }

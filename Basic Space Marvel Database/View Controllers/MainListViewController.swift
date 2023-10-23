@@ -11,10 +11,13 @@ class MainListViewController: UIViewController
 {
     
     @IBOutlet weak var listCollectionView: UICollectionView!
+    @IBOutlet weak var heroSearchBar: UISearchBar!
     
     private var apiCallManager: APICallManager?
     private var imageCaching: ImageCaching?
     private var selectedHero: Character?
+    private var searchString: [URLQueryItem]?
+    
     lazy var heroArray = [Character]()
     
     override func viewDidLoad()
@@ -37,7 +40,7 @@ class MainListViewController: UIViewController
     
     func getNextHeroPage()
     {
-        apiCallManager?.getHeroList(pageCount: heroArray.count)
+        apiCallManager?.getHeroList(pageCount: heroArray.count, queryItems: searchString != nil ? searchString! : [URLQueryItem]())
         {
             heroList, error in
             
@@ -51,7 +54,7 @@ class MainListViewController: UIViewController
                         for hero in heroList
                         {
                             let indexPath = IndexPath(row: self.heroArray.count, section: 0)
-                            self.heroArray.append( hero) //add your object to data source first
+                            self.heroArray.append( hero)
                             self.listCollectionView?.insertItems(at: [indexPath])
                         }
                     }, completion: nil)
@@ -60,7 +63,8 @@ class MainListViewController: UIViewController
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) 
+    {
         if segue.identifier == "didSelectCell"
         {
             if let segueDestination = segue.destination as? ProfileDetailViewController
@@ -127,3 +131,46 @@ extension MainListViewController: UICollectionViewDataSource
     
 }
 
+//MARK: UISearchBarDelegate
+
+extension MainListViewController: UISearchBarDelegate
+{
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) 
+    {
+        if !searchText.isEmpty
+        {
+            let searchQuery: [URLQueryItem] = [URLQueryItem(name: "nameStartsWith", value: searchText)]
+            self.searchString = searchQuery
+            self.heroArray = [Character]()
+            self.listCollectionView.reloadData()
+            apiCallManager?.getHeroList(pageCount: heroArray.count, queryItems: searchQuery)
+            {
+                heroList, error in
+                
+                if let heroList = heroList
+                {
+                    DispatchQueue.main.async
+                    {
+                        self.listCollectionView?.performBatchUpdates(
+                        {
+                           
+                            for hero in heroList
+                            {
+                                let indexPath = IndexPath(row: self.heroArray.count, section: 0)
+                                self.heroArray.append( hero)
+                                self.listCollectionView?.insertItems(at: [indexPath])
+                            }
+                        }, completion: nil)
+                    }
+                }
+            }
+        }
+        else
+        {
+            self.heroArray = [Character]()
+            self.searchString = nil
+            listCollectionView.reloadData()
+            self.getNextHeroPage()
+        }
+    }
+}

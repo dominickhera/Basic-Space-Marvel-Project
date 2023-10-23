@@ -10,7 +10,7 @@ import CryptoKit
 
 protocol APIProtocol
 {
-    func getHeroList(pageCount: Int, callback: @escaping(_ heroList: [Character]?, _ error: Error?) -> Void)
+    func getHeroList(pageCount: Int, queryItems: [URLQueryItem], callback: @escaping(_ heroList: [Character]?, _ error: Error?) -> Void)
     func getContentList(pageCount: Int, hero: Character, contentType: contentType, callback: @escaping(_ contentList: [Content]?, _ error: Error?) -> Void)
 }
 
@@ -23,20 +23,21 @@ class APICallManager: APIProtocol
         self.networkManager = networkManager
     }
     
-    func getHeroList(pageCount: Int, callback: @escaping(_ heroList: [Character]?, _ error: Error?) -> Void)
+    func getHeroList(pageCount: Int, queryItems: [URLQueryItem] = [URLQueryItem](), callback: @escaping(_ heroList: [Character]?, _ error: Error?) -> Void)
     {
         let requestURL = "https://gateway.marvel.com/v1/public/characters"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         let tempDate = dateFormatter.string(from: Date())
-        let queryItems: [URLQueryItem] = [
+        var newQueryItems: [URLQueryItem] = [
             URLQueryItem(name: "offset", value: "\(pageCount)"),
             URLQueryItem(name: "apikey", value: "\(publicAPIKey)"),
             URLQueryItem(name: "ts", value: tempDate),
             URLQueryItem(name: "hash", value: getAuthHash())
         ]
+        newQueryItems.append(contentsOf: queryItems)
         
-        networkManager?.request(requestURL: requestURL, queryItems: queryItems)
+        networkManager?.request(requestURL: requestURL, queryItems: newQueryItems)
         {
             serverResponse, data, error in
             
